@@ -1,0 +1,72 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color: black;
+	color: #f5f5f5;
+	font-family: 'Montserrat', sans-serif;
+	width: 90%;
+	margin: auto;
+}
+
+nav
+{
+	height: 12vh;
+	display: flex;
+	align-items: center;
+}
+
+nav img
+{
+	height: 5vh;
+}
+
+main
+{
+	height: 88vh;
+	display: flex;
+	align-items: center;
+}
+
+.main-text-area
+{
+	flex: 0.6;
+	display: flex;
+	flex-direction: column;
+}
+
+h1
+{
+	font-size: 8em;
+}
+
+.social-imgs
+{
+	padding-top: 4%;
+}
+
+.social-img
+{
+	height: 4rem;
+}
+
+.social-img:hover
+{
+	filter: drop-shadow(0px 0px 5px #bdbdbd);
+	transform: scale(1.1);
+}
+
+.profile-img
+{
+	flex: 0.4;
+}
+
+.profile-img img
+{
+	border-radius: 300px;
+}
